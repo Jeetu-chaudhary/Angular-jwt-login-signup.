@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { AuthInterceptor } from './auth.interceptor';
+import { OauthcallbackComponent } from './pages/oauthcallback/oauthcallback.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AuthInterceptor } from './auth.interceptor';
     SigninComponent,
     SignupComponent,
     WelcomeComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    OauthcallbackComponent
   ],
   imports: [
     BrowserModule,

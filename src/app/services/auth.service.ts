@@ -22,7 +22,6 @@ export class AuthService {
   }
 
   welcome() {
-    debugger
     const headers = new HttpHeaders({
       'Authorization': `Bearer ${localStorage['token']}`
     });
